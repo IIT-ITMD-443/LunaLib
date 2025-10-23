@@ -1,4 +1,4 @@
-.wrapper {
+.container {
     display: flex;  
     flex-flow: row wrap;
     font-weight: bold;
@@ -10,9 +10,14 @@ body {
     margin: 0; 
 }
 
+main {
+    height: 100vh;
+    background-color: #DCD2BE;
+}
+
 .logo img {
     width: 20em;
-    padding: 1em;
+    padding: 15px;
 }
 
 .header {
@@ -25,7 +30,7 @@ body {
     color: white;
     font-size: 1em;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
-    border-bottom: 4px solid #532329;
+    border-bottom: 10px solid #532329;
  
 }
 
@@ -34,7 +39,9 @@ body {
     flex-flow: row wrap; 
     flex: 1 100%;
     list-style: none; /* Removes bullet points */
-    padding: 1em;
+    padding: 5px;
+    margin: 0px;
+    border-top: 2px solid #532329;
 }
 
 .navigation li {
@@ -44,23 +51,18 @@ body {
 
 .navigation a {
     text-decoration: none; /* Removes underline */
-    padding: 1em; 
+    padding: 10px; 
     display: flex; /* Makes anchor fill li */
     color: black;
     align-items: center;
 }
 
-#mylibrary img {
-    width: 50px;
-    height: 50px;
-}
-
-#login{
+#login, #total{
     margin-left: auto;
 }
 
 li img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     padding: 5px;
 }
