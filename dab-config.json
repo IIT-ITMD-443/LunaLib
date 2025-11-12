@@ -30,7 +30,7 @@
     }
   },
   "entities": {
-    "Users":{
+    "Users": {
       "source":"Users",
       "permissions":[
         {"role":"anonymous", "actions":["read","create","update","delete"]}
@@ -40,7 +40,7 @@
       "source": "Books", 
       "permissions": [ 
         { "role": "anonymous", "actions": ["read","create","update","delete"] } 
-      ] 
+      ]       
     }, 
     "Collections": { 
       "source": "Collections", 
