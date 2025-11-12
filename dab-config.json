@@ -29,5 +29,14 @@
       "enabled": true
     }
   },
-  "entities": {}
+  "entities": {
+    "Users":{
+      "source":"Users",
+      "permissions":[
+        {"role":"anonymous", "actions":["read","create","update","delete"]}
+      ]
+    }
+
+  }
+  
 }
