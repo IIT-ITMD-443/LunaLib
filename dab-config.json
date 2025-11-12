@@ -35,8 +35,24 @@
       "permissions":[
         {"role":"anonymous", "actions":["read","create","update","delete"]}
       ]
-    }
-
+    },
+    "Books": { 
+      "source": "Books", 
+      "permissions": [ 
+        { "role": "anonymous", "actions": ["read","create","update","delete"] } 
+      ] 
+    }, 
+    "Collections": { 
+      "source": "Collections", 
+      "permissions": [ 
+        { "role": "anonymous", "actions": ["read","create","update","delete"] } 
+      ] 
+    }, 
+    "CollectionBooks": { 
+      "source": "CollectionBooks", 
+      "permissions": [ 
+        { "role": "anonymous", "actions": ["read","create","update","delete"] } 
+      ] 
+    } 
   }
-  
 }
